@@ -1,9 +1,9 @@
-﻿class myProgram
+﻿class Program
 {
     public static void Main()
     {
-        Aufgabe2();
         Aufgabe1();
+        Aufgabe2();
         Aufgabe3();
     }
 
@@ -35,6 +35,16 @@
     }
 
     static void Aufgabe3()
+    {
+        Console.WriteLine("Nennen sie mir bitte ihren namen.");
+        string Vorname = Console.ReadLine();
+        Console.WriteLine("Wie lautet ihr alter?");
+        string Alter = Console.ReadLine();
+        Console.WriteLine("Welche Klasse besuchen sie auf der Gso?");
+        string klasse = Console.ReadLine();
+        Console.WriteLine($"{Vorname} ist {Alter} Jahre alt und besucht die {klasse} des Georg-Simon-Ohm Berufskollegs.");
+       
 
+    }
 
 }
