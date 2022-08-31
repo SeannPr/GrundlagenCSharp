@@ -1,4 +1,4 @@
-﻿class Program
+class Program
 {
     public static void Main()
     {
@@ -40,10 +40,10 @@
     
     static void Aufgabe4()
     {
-        Console.WriteLine("Gebt eine Zahl im Wertebereich von short ein");
-        short short_Number = Convert.ToInt16(Console.ReadLine());
-        Console.WriteLine("Geben sie auch noch eine Zahl im Wertebereich von double ein");
-        double double_Number = Convert.ToInt64(Console.ReadLine());
+        string eingabe_short = Console.WriteLine("Gebt eine Zahl im Wertebereich von short ein");
+        short short_Number = Convert.ToInt16(Console.ReadLine(eingabe_short));
+        string eingabe_double = Console.WriteLine("Geben sie auch noch eine Zahl im Wertebereich von double ein");
+        double double_Number = Convert.ToDouble(Console.ReadLine(eingabe_double));
         Console.WriteLine(double_Number);
         Console.WriteLine(short_Number);
 
