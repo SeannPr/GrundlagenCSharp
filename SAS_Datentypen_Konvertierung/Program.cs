@@ -40,12 +40,12 @@ class Program
     
     static void Aufgabe4()
     {
-        string eingabe_short = Console.WriteLine("Gebt eine Zahl im Wertebereich von short ein");
-        short short_Number = Convert.ToInt16(Console.ReadLine(eingabe_short));
-        string eingabe_double = Console.WriteLine("Geben sie auch noch eine Zahl im Wertebereich von double ein");
-        double double_Number = Convert.ToDouble(Console.ReadLine(eingabe_double));
-        Console.WriteLine(double_Number);
+        Console.WriteLine("Gebt eine Zahl im Wertebereich von short ein");
+        short short_Number = Convert.ToInt16(Console.ReadLine());
+        Console.WriteLine("Geben sie auch noch eine Zahl im Wertebereich von double ein");
+        double double_Number = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine(short_Number);
+        Console.WriteLine(double_Number);
 
     }
 }
