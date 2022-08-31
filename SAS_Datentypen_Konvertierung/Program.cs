@@ -21,8 +21,8 @@
 
     static void Aufgabe2()
     {
-        string vorname = "Dein Vorname";
-        byte alter = 17;
+        string vorname = "Sean";
+        byte alter = 16;
         bool antwort = true;
         Console.WriteLine("Ist C# die erste Programmiersprache,die Sie lernen?\n {0}", antwort);
 
